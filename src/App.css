@@ -366,8 +366,14 @@ main {
 /* Projects */
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 24px;
+}
+
+@media (max-width: 680px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .project-card {
@@ -385,9 +391,21 @@ main {
   transform: translateY(-3px);
 }
 
+.project-card--break {
+  grid-column: 1 / -1;
+}
+
+.project-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
 .project-card h4 {
   font-size: 18px;
-  margin-bottom: 10px;
 }
 
 .project-card p {

@@ -6,12 +6,15 @@ function Projects({ projects }) {
         {projects.map((p) => (
           <a
             key={p.name}
-            className="project-card"
+            className={`project-card${p.newRow ? " project-card--break" : ""}`}
             href={p.link}
             target="_blank"
             rel="noreferrer"
           >
-            <h4>{p.name}</h4>
+            <div className="project-header">
+              <h4>{p.name}</h4>
+              {p.period && <span className="card-period">{p.period}</span>}
+            </div>
             <p>{p.description}</p>
             <div className="project-tags">
               {p.tags.map((t) => (

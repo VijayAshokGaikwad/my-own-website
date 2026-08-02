@@ -100,24 +100,27 @@ const resume = {
 
   projects: [
     {
-      name: "LLM-Driven Pipeline Failure Detection & Auto-Recovery System",
+      name: "Web Application for the Global Retailers",
+      period: "Mar 2020 — Nov 2021",
       description:
-        "A GenAI hackathon project that automatically detects CI/CD pipeline failures and triggers recovery workflows using LLMs.",
-      tags: ["Python", "GitLab", "OpenAPI", "GenAI"],
+        "Built a web application from scratch for a global retailer. On the backend: set up repositories from the ground up, wrote Spring Batch jobs, worked with the NoSQL database Elasticsearch, wrote REST APIs to fetch data, applied design patterns for modular code, and set up CI/CD pipelines from scratch. On the frontend: built the UI using React and Redux.",
+      tags: ["Kotlin", "Java", "Spring Boot", "React", "Redux", "Kubernetes", "Jenkins", "Elasticsearch", "PostgreSQL"],
+      link: "https://www.linkedin.com/in/vijay-gaikwad-355523b9",
+    },
+    {
+      name: "PriceList Maintenance Solution For Global Car Manufacturers",
+      period: "Nov 2021 — Aug 2024",
+      description:
+        "A web application providing a price list maintenance solution for price maintainers at a global car manufacturer, aimed at speeding up and revolutionizing the existing sales process. The project decommissioned a legacy product, streamlined price list creation, and eliminated inconsistencies present in the legacy system. Technically, it involved fetching and storing data from existing systems via ETL pipelines, exposing REST APIs to use this data, and automating price list creation for end users.",
+      tags: ["Kotlin", "Java", "Spring Boot", "Ktor", "Neo4j", "Spark ETL"],
       link: "https://www.linkedin.com/in/vijay-gaikwad-355523b9",
     },
     {
       name: "Internal Developer Platform (IDP)",
+      newRow: true,
       description:
         "A mini project built during a Gen-AI hackathon at Equal Experts, using Gen-AI tools to streamline developer workflows.",
       tags: ["Gen-AI", "Kotlin", "Spring Boot"],
-      link: "https://www.linkedin.com/in/vijay-gaikwad-355523b9",
-    },
-    {
-      name: "Adaptive GloVe and FastText Model for Hindi Word Embeddings",
-      description:
-        "ACM research paper on adaptive word embedding models for the Hindi language, published in the NLP domain using Python.",
-      tags: ["Python", "NLP", "Research"],
       link: "https://www.linkedin.com/in/vijay-gaikwad-355523b9",
     },
   ],
