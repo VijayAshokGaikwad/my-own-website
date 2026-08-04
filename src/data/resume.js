@@ -108,7 +108,7 @@ const resume = {
       link: "https://www.linkedin.com/in/vijay-gaikwad-355523b9",
     },
     {
-      name: "PriceList Maintenance Solution For Global Car Manufacturers",
+      name: "Web Application For Global Car Manufacturers",
       period: "Nov 2021 — Aug 2024",
       description:
         "A web application providing a price list maintenance solution for price maintainers at a global car manufacturer, aimed at speeding up and revolutionizing the existing sales process. The project decommissioned a legacy product, streamlined price list creation, and eliminated inconsistencies present in the legacy system. Technically, it involved fetching and storing data from existing systems via ETL pipelines, exposing REST APIs to use this data, and automating price list creation for end users.",
