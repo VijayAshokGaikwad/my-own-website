@@ -3,13 +3,13 @@
 }
 
 :root {
-  --bg: #faf8f4;
-  --bg-alt: #f2efe8;
-  --ink: #2b2620;
-  --ink-soft: #5c574e;
-  --accent: #8a5a3f;
-  --accent-soft: #d9c8ba;
-  --line: #e4ddd0;
+  --bg: #0b0b0c;
+  --bg-alt: #18181b;
+  --ink: #f3f1ec;
+  --ink-soft: #a3a099;
+  --accent: #7bafd4;
+  --accent-soft: #1c2a35;
+  --line: #2a2a2c;
   --serif: "Fraunces", "Georgia", serif;
   --sans: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
 }
