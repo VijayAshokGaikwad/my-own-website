@@ -207,8 +207,8 @@ main {
 /* About */
 .about-grid {
   display: grid;
-  grid-template-columns: 1.4fr 1fr;
-  gap: 56px;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 100px;
 }
 
 .about-text {
@@ -267,10 +267,10 @@ main {
 .skill-pill {
   font-size: 13px;
   padding: 7px 14px;
-  border: 1px solid var(--line);
+  border: 1px solid var(--pill-line);
   border-radius: 999px;
-  color: var(--ink-soft);
-  background: var(--bg-alt);
+  color: var(--pill-ink);
+  background: var(--pill-bg);
 }
 
 
