@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 const links = [
   { id: "about", label: "Summary" },
   { id: "experience", label: "Experience" },
@@ -9,9 +11,12 @@ const links = [
 ];
 
 function Nav({ name }) {
+  const [active, setActive] = useState(null);
+
   const scrollTo = (id) => (e) => {
     e.preventDefault();
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+    setActive(id);
   };
 
   return (
@@ -22,7 +27,12 @@ function Nav({ name }) {
         </a>
         <nav className="nav-links">
           {links.map((l) => (
-            <a key={l.id} href={`#${l.id}`} onClick={scrollTo(l.id)}>
+            <a
+              key={l.id}
+              href={`#${l.id}`}
+              className={active === l.id ? "active" : undefined}
+              onClick={scrollTo(l.id)}
+            >
               {l.label}
             </a>
           ))}
