@@ -27,7 +27,7 @@ main {
 
 .section-label--sm {
   font-size: 14px;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 
 @keyframes fadeIn {
@@ -91,8 +91,8 @@ main {
 
 /* Hero */
 .hero {
-  padding-top: 80px;
-  padding-bottom: 64px;
+  padding-top: 72px;
+  padding-bottom: 56px;
 }
 
 .hero-inner {
@@ -162,7 +162,7 @@ main {
   display: flex;
   align-items: center;
   gap: 28px;
-  margin-top: 40px;
+  margin-top: 32px;
   flex-wrap: wrap;
 }
 
@@ -271,7 +271,7 @@ main {
 .timeline {
   display: flex;
   flex-direction: column;
-  gap: 44px;
+  gap: 36px;
 }
 
 .timeline-item {
@@ -395,7 +395,12 @@ main {
   border-bottom: 1px solid var(--line);
 }
 
+.cert-item:first-child {
+  padding-top: 0;
+}
+
 .cert-item:last-child {
+  padding-bottom: 0;
   border-bottom: none;
 }
 
@@ -407,7 +412,7 @@ main {
 .project-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
+  gap: 20px;
 }
 
 @media (max-width: 680px) {
@@ -476,14 +481,14 @@ main {
 .contact-lead {
   color: var(--ink-soft);
   max-width: 420px;
-  margin: 16px auto 0;
+  margin: 0 auto;
 }
 
 .contact-details {
   display: flex;
   justify-content: center;
   gap: 28px;
-  margin-top: 32px;
+  margin-top: 24px;
   flex-wrap: wrap;
   font-size: 16px;
 }
@@ -494,7 +499,9 @@ main {
 }
 
 .footer {
-  margin-top: 64px;
+  margin-top: 40px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
   font-size: 13px;
   color: var(--ink-soft);
 }
