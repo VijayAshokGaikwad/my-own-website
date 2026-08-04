@@ -9,13 +9,15 @@ function About({ about, skills }) {
           ))}
         </ul>
         <div className="skills">
-          {skills.map((group) =>
-            group.items.map((s) => (
-              <span key={s} className="skill-pill">
-                {s}
-              </span>
-            ))
-          )}
+          {skills.map((group, i) => (
+            <div key={i} className="skill-row">
+              {group.map((s) => (
+                <span key={s} className="skill-pill">
+                  {s}
+                </span>
+              ))}
+            </div>
+          ))}
         </div>
       </div>
     </section>

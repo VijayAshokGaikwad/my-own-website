@@ -126,38 +126,14 @@ const resume = {
   ],
 
   skills: [
-    {
-      category: "Languages",
-      items: ["Kotlin", "Java", "Python"],
-    },
-    {
-      category: "UI",
-      items: ["React", "JavaScript", "Nuxt.js"],
-    },
-    {
-      category: "Backend Frameworks",
-      items: ["Spring Boot", "Ktor"],
-    },
-    {
-      category: "Databases",
-      items: ["Neo4j", "PostgreSQL"],
-    },
-    {
-      category: "Cloud",
-      items: ["AWS (S3, EKS, EMR)", "GCP PubSub", "GCP"],
-    },
-    {
-      category: "Infrastructure",
-      items: ["Docker", "Kubernetes", "Terraform"],
-    },
-    {
-      category: "Data Engineering",
-      items: ["Apache Spark"],
-    },
-    {
-      category: "AI Tools",
-      items: ["GitHub Co-Pilot", "Claude"],
-    },
+    ["Kotlin", "Java", "Python"],
+    ["Spring Boot", "Ktor"],
+    ["React", "JavaScript", "Nuxt.js"],
+    ["Neo4j", "PostgreSQL"],
+    ["AWS (S3, EKS, EMR)", "GCP PubSub"],
+    ["Docker", "Kubernetes", "Terraform"],
+    ["Apache Spark"],
+    ["Claude", "GitHub Co-Pilot"],
   ],
 };
 

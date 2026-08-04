@@ -247,9 +247,21 @@ main {
 
 .skills {
   display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.skill-row {
+  display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  align-content: flex-start;
+}
+
+@media (max-width: 680px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
 }
 
 .skill-pill {
@@ -261,11 +273,6 @@ main {
   background: var(--bg-alt);
 }
 
-@media (max-width: 680px) {
-  .about-grid {
-    grid-template-columns: 1fr;
-  }
-}
 
 /* Timeline (Experience) */
 .timeline {
