@@ -242,7 +242,7 @@ main {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: var(--accent-soft);
+  background: var(--bullet);
 }
 
 .skills {
@@ -338,10 +338,10 @@ main {
   position: absolute;
   left: 0;
   top: 10px;
-  width: 5px;
-  height: 5px;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
-  background: var(--accent-soft);
+  background: var(--bullet);
 }
 
 /* Cards (Education) */
